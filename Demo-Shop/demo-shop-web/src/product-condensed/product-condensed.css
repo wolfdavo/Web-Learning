@@ -1,0 +1,17 @@
+.product-condensed {
+  display: flex;
+  padding: 15px;
+}
+
+.product-condensed a {
+  display: inline-block;
+  float: left;
+  align-self: center;
+  justify-content: space-between;
+  text-shadow: 0 0 20px red;
+}
+
+.product-condensed p {
+  margin: 0;
+  flex: auto;
+}

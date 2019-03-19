@@ -1,0 +1,280 @@
+html,
+body {
+    margin: 0;
+    font-family: 'Dosis', sans-serif;
+}
+
+/*###### NAV BAR #####*/
+.navbar,
+.container {
+    margin: 0 auto;
+    max-width: 90%;
+    padding-right: 20px;
+    padding: 10px 30px;
+}
+
+.navbar {
+    justify-content: space-between;
+    display: flex;
+}
+
+.brand {
+    font-size: 25px;
+}
+
+.brand,
+.nav-link {
+    text-transform: uppercase;
+    color: #303137;
+}
+
+.topnav {
+    display: flex;
+    margin: 0;
+    padding: 0 inherit;
+    list-style: none;
+    align-self: center;
+    /*padding-right: 20px;*/
+}
+
+.topnav a:hover {
+    color: #339933;
+}
+
+.topnav .nav-link {
+    align-self: center;
+    text-decoration: none;
+    padding-left: 20px;
+}
+
+.topnav li.dropdownLink {
+    display: none;
+}
+
+/*########### HEADER #############*/
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.first-name {
+    color: #206020;
+}
+
+.headshot-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 5rem 0;
+}
+
+.headshot {
+    border-radius: 40%;
+    max-width: 200px;
+    width: 100%;
+}
+
+/*########### SERVICES #############*/
+
+.services,
+.contact-container {
+    background-color: #f1f3fa;
+    padding: 4rem 1rem;
+}
+
+.media-object {
+    display: flex;
+    align-items: center;
+
+}
+
+.icon-wrapper {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    width: 180px;
+    height: 200px;
+    padding-top: 30px;
+}
+
+.blurb-wrapper {
+    flex: 1;
+
+}
+
+.blurb-info {
+    color: #206020;
+}
+
+.icon-wrapper.right {
+    order: 2;
+}
+
+.blurb-wrapper.left {
+    order: 1;
+    padding-left: 5%;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+
+}
+
+.contact-button {
+    color: white;
+    background-color: #339933;
+    font-size: 18px;
+    padding: 0.8rem 4rem;
+    border: none;
+    border-radius: 25px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, .3);
+}
+
+.contact-button:hover {
+    background-color: #206020;
+}
+
+
+
+
+/*<!--######## PORTFOLIO #######-->*/
+
+.section-header {
+    text-align: center;
+    padding: 3rem 0 2rem;
+}
+
+.portfolio-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.portfolio-obj {
+    max-width: 250px;
+    margin: 1rem 0;
+}
+
+.portfolio-box {
+    width: 250px;
+    height: 250px;
+    background-color: #f1f3fa;
+    transition: .2s ease-in-out;
+}
+
+.portfolio-box:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+
+/*<!--######## GET IN TOUCH #######-->*/
+
+.contact-container {
+    padding-top: 0;
+}
+
+.section-header {
+    padding-top: 10px;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-form label{
+    margin-bottom: 3px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-control{
+    max-width: 300px;
+    width: 400%;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+    padding: .4rem .75rem;
+    font-family: 'Dosis', sans-serif;
+    background-clip: padding-box;
+    display:block;
+
+}
+
+.submit-button{
+    max-width: 200px;
+    text-align: center;
+
+}
+
+/*##### MOBILE ######*/
+
+@media (max-width: 768px) {
+
+
+    /*### NAV BAR ###*/
+    li a.nav-link {
+        display: none;
+    }
+
+    ul.topnav li.dropdownLink {
+        display: block;
+        position: absolute;
+        top: 14px;
+        right: 20px;
+
+    }
+
+    a.dropButton {
+        text-decoration: none;
+        color: #303137;
+    }
+
+    ul.topnav.responsive {
+        flex-direction: column;
+        padding-right: 5px;
+    }
+
+    .topnav.responsive li a.nav-link {
+        display: block;
+        position: relative;
+        top: 40px;
+        text-align: right;
+        line-height: 2;
+    }
+
+
+    /*########### SERVICES ############*/
+
+    section.services {
+        padding-top: 0;
+    }
+
+    .media-object {
+        text-align: center;
+        flex-direction: column;
+        margin-top: 64px;
+    }
+
+    .icon-wrapper.right {
+        order: 1;
+    }
+
+    .blurb-wrapper.left {
+        order: 2;
+        padding-left: 0;
+    }
+
+}

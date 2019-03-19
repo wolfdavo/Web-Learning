@@ -1,0 +1,192 @@
+.row {
+    margin: 0;
+}
+
+.carousel-col {
+    padding: 0;
+}
+
+/*NAV BAR*/
+.wavesfordays {
+    display: inline-block;
+    margin-left: 10px;
+    letter-spacing: 1px;
+}
+
+body nav a {
+    font-family: 'Amatic SC', cursive;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: aliceblue;
+}
+
+body nav a:hover {
+    color: aquamarine;
+}
+
+.dropdown-menu {
+    left: auto;
+    right: 0;
+}
+
+/*SOMETHINGS FISHY*/
+
+.darkSection {
+    background-color: #ccc;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding-top: 2%;
+}
+
+.fishy-row {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.fish {
+    float: right;
+    padding: 2rem;
+    max-height: 30rem;
+}
+
+.something-fishy-body {
+    font-family: 'Amatic SC', cursive;
+}
+
+.something-fishy-body h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.something-fishy-body p {
+    font-size: 1.5rem;
+}
+
+.surfboards {
+    margin-top: 1.2rem;
+}
+
+.getUpdatesButton {
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    background-color: #343a40;
+    border-color: #343a40;
+}
+
+.getUpdatesButton:hover {
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+
+/*DESTINATIONS*/
+
+.sectionLight {
+    background-color: #eceeef;
+    width: 100%;
+    padding: 2rem;
+}
+
+.travel-header {
+    font-family: 'Amatic SC', cursive;
+    font-size: 3.5rem;
+    margin-bottom: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.travel-card {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 32px;
+}
+
+.travel-pic {
+    border-radius: 8px;
+    -webkit-box-shadow: 0px 0px 10px 1px rgba(52, 58, 64, 1);
+    -moz-box-shadow: 0px 0px 10px 1px rgba(52, 58, 64, 1);
+    box-shadow: 0px 0px 10px 1px rgba(52, 58, 64, 1);
+}
+
+.travel-buttons {
+    display: block;
+    width: 100%;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #343a40;
+    border-color: #343a40;
+    margin-top: 32px;
+}
+
+/*FOOTER*/
+.footer-custom {
+    background-color: #343a40;
+}
+
+.footerimg {
+    padding: 20px;
+    height: 165px;
+}
+
+.social-wrapper {
+    margin: auto;
+}
+
+.fa {
+    margin: 10px;
+}
+
+.fa-facebook-square {
+    color: #3b5998;
+}
+
+.fa-google-plus-square {
+    color: #c32f10;
+}
+
+.fa-instagram {
+    color: #fff;
+}
+
+/*MODAL*/
+h5.modal-title {
+    display: block;
+    margin: auto;
+    padding-left: 32px;
+}
+
+.modal-header .close {
+    margin-left: 0;
+}
+
+img.modalImage {
+    display: block;
+    margin: auto;
+    height: 125px;
+    width: auto;
+}
+
+.getUpdatesModalForm {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.agreeCheckboxText {
+    font-size: 0.8rem;
+}
+
+/*MOBILE*/
+
+@media screen and (max-width: 767px) {
+    img.fish {
+        visibility: collapse;
+    }
+
+    .fishcol {
+        visibility: collapse;
+        height: 0;
+        width: 0;
+    }
+}

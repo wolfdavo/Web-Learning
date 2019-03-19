@@ -1,0 +1,55 @@
+body{
+    background: linear-gradient(azure, #33ccff) ;
+    margin: 0;
+}
+
+h1{
+    text-shadow: 1px 1px 2px #33ccff;
+}
+
+/*############ NAV BAR #############*/
+.navbar{
+    width: 100%;
+    margin: 0;
+}
+
+/*## IMAGE ##*/
+.navbar .links .logo{
+    float: left;
+    margin: 0;
+    padding-top:;
+    height: 25px;
+    width: auto;
+    display: block;
+}
+
+
+
+/*## LINKS ##*/
+
+.links{
+    padding: 0;
+    margin: 0;
+    background-color: #eee;
+    overflow: hidden;
+}
+
+.links li{
+    display: inline-block;
+    
+}
+
+.links li a{
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 14px;
+    color: black;
+    font-size: 13px;
+}
+
+.links li a:hover{
+    color: white;
+    background-color: #0080ff;
+}
+

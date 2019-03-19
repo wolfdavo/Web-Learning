@@ -1,0 +1,76 @@
+body.signin-body {
+    background-color: #363636;
+}
+
+div.signin-container {
+    margin-top: 5%;
+}
+
+.card.signin-card {
+    text-align: center;
+    background-color: #eaeaea;
+    border-radius: 1rem;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, .5);
+}
+
+img.signin-img {
+    padding: 2rem;
+    margin: auto;
+    margin-bottom: 10px;
+    display: block;
+}
+
+form.signin-form label {
+    color: #5c5c5c;
+    font-family: 'Comfortaa', cursive;
+}
+
+form.signin-form input {
+    text-align: center;
+    color: #5c5c5c;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 1.25rem;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
+    -webkit-box-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 2px 2px 3px rgba(0, 0, 0, .5);
+}
+
+form.signin-form button.btn {
+    color: #eaeaea;
+    background-color: #363636;
+    border-color: #363636;
+    font-family: 'Comfortaa', cursive;
+    border-radius: 1.25rem;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+form.signin-form .form-check {
+    margin-top: 1rem;
+    
+}
+
+form.signin-form .form-check-input {
+    margin-top: .5rem;
+    box-shadow: none;
+    cursor: pointer;
+}
+
+form.signin-form .form-check-label {
+    cursor: pointer;
+}
+
+.newAccount{
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+    margin: 2rem;
+    color: #eaeaea;
+}
+
+.newAccount a{
+    color: #eaeaea;
+}

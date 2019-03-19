@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+}
+
+ul li {
+    color: green;
+}
+
+ul > li {
+    color: red;
+}
+
+.parent h2{
+    color: darkslategrey;
+}
+
+.parent div h2 {
+    color: crimson;
+}
+
+h1, p {
+    color:blueviolet;
+    font-family: 'Amatic SC', cursive;
+}
+
+h2{
+    font-family: 'Indie Flower', cursive;
+}
+
+h3{
+    font-family: 'Major Mono Display', monospace;
+}
+
+
+div h3 {
+    color: brown;
+}
+
+.formatting{
+    font-size: 25px;
+    line-height: 2em;
+    color: black;
+}
